@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqN5kVaYwsb7_XVbP6JEUHzLT17y1N5Ur1nA&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'roboto''sans-seria';
+}
+.container{
+    position: relative;
+    width: 90%;
+    height: 87vh;
+    border: 5px solid #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.greeting{
+    font-size: 100px;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family: 'dosis';
+
+}
